@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2945e29093385ad4199d1791cf9f01f4, type: 3}
+  m_Name: Pewter
+  m_EditorClassIdentifier: 
+  aController: {fileID: 0}
+  unitName: Pewter
+  maxHp: 54
+  hp: 54
+  atk:
+    baseVal: 30
+    modifiers: 
+  def:
+    baseVal: 16
+    modifiers: 
+  spd:
+    baseVal: 16
+    modifiers: 
+  hit:
+    baseVal: 85
+    modifiers: 
+  avo:
+    baseVal: 10
+    modifiers: 
+  mv:
+    baseVal: 4
+    modifiers: 
+  minRange:
+    baseVal: 1
+    modifiers: 
+  maxRange:
+    baseVal: 1
+    modifiers: 
+  weapon: {fileID: 11400000, guid: 3bf360c1c4e4c1b4bad0271fcc65c41b, type: 2}
+  moraleScript: {fileID: 9058754399012276549, guid: 9c35c0674a2eac44a8ea8858114a4e8e,
+    type: 3}
+  playerGroup: -1
+  ai: {fileID: 11400000, guid: 2d3205d663bc2db45b08a1d9ba081afc, type: 2}
+  frame: {fileID: 21300000, guid: 36b66f14b384a4e49a99185f394e5a5b, type: 3}
+  portrait: {fileID: 21300000, guid: 9de126fcbab210949bfe96e5d5ec93b1, type: 3}
+  initSprite: {fileID: 21300000, guid: 6f5c2b003a95d0d46be17d2d5b53a60d, type: 3}
+  mvSprite: {fileID: 21300000, guid: de3b6ec817e0bfc4a8896fe8761986d3, type: 3}
+  cost: 100
+  teamBuff: {fileID: 1366011262106104882, guid: 881cb8cf62a67254cb45a5fe40959f53,
+    type: 3}
+  groupIcon: {fileID: 21300000, guid: a45391ef263d14e4aad374da394ff811, type: 3}

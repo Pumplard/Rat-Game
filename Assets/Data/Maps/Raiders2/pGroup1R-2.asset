@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 024464fad472ed64ca4f007707455933, type: 3}
+  m_Name: pGroup1R-2
+  m_EditorClassIdentifier: 
+  baseUnit: {fileID: 0}
+  leadUnit: {fileID: 11400000, guid: 4936cac875f3dac43a36867d2f9e1ecb, type: 2}
+  units:
+  - {fileID: 11400000, guid: c4f5cac24b439ef4594dff041c23eb62, type: 2}
+  - {fileID: 11400000, guid: c4f5cac24b439ef4594dff041c23eb62, type: 2}
+  - {fileID: 11400000, guid: c4f5cac24b439ef4594dff041c23eb62, type: 2}
+  - {fileID: 11400000, guid: c4f5cac24b439ef4594dff041c23eb62, type: 2}
+  unitAI: []
+  unitWeapons: []
+  team: 0
+  playerGroup: 0
+  group: 0
+  unitTotal: 0
+  maxUnits: 15

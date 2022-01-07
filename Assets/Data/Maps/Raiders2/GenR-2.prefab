@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8815620164549861005
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3249479836223850190}
+  - component: {fileID: 7537333070821730497}
+  m_Layer: 0
+  m_Name: GenR-2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3249479836223850190
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8815620164549861005}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.22900456, y: 0.38551924, z: -1.9138498}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7537333070821730497
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8815620164549861005}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ca3942da8b10c443974f02bcc6f0076, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelName: Raiders_2
+  width: 25
+  height: 25
+  initialUnitLists:
+  - {fileID: 11400000, guid: e7ed643f31876364496a5ae830906998, type: 2}
+  - {fileID: 11400000, guid: 33119c18e9476874ba41695dafaf708f, type: 2}
+  - {fileID: 11400000, guid: 1fb6374623079d647b8128155292ba7a, type: 2}
+  - {fileID: 11400000, guid: 67bfc8dcea2fade4aafc20bfc7e76003, type: 2}
+  initialCoordLists:
+  - {fileID: 11400000, guid: 3d8b2351d03e4e243bf7be322c9f31a3, type: 2}
+  - {fileID: 11400000, guid: 34fe02989e868544b9b7dda069501f7f, type: 2}
+  - {fileID: 11400000, guid: a2cb75d5223bed9418809f9fafc3714f, type: 2}
+  - {fileID: 11400000, guid: 3236c8fe495afd34584cae92301f25dc, type: 2}
+  tileGen: {fileID: 11400000, guid: b86945c1b43a1f74f97a702e6a0ba5a7, type: 2}

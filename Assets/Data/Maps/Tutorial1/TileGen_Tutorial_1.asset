@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe3fbc1fa1e65ad469123ac8b3360b14, type: 3}
+  m_Name: TileGen_Tutorial_1
+  m_EditorClassIdentifier: 
+  width: 18
+  height: 24
+  tileTypes:
+  - {fileID: 11400000, guid: 3f2ac69906cbc174a97034fd7695cbbf, type: 2}
+  - {fileID: 11400000, guid: c0b83868903f2094fa92eb92729f0ddc, type: 2}
+  tileScript: {fileID: -9080345083259452134, guid: 4ffd94398d455074d98d29dd8f2363ed,
+    type: 3}

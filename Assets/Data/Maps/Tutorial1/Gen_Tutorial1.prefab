@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2235551634316354380
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5208801342013930255}
+  - component: {fileID: 993296565757646080}
+  m_Layer: 0
+  m_Name: Gen_Tutorial1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5208801342013930255
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2235551634316354380}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.22900456, y: 0.38551924, z: -1.9138498}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &993296565757646080
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2235551634316354380}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ca3942da8b10c443974f02bcc6f0076, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelName: Tutorial_1
+  width: 18
+  height: 24
+  initialUnitLists:
+  - {fileID: 0}
+  - {fileID: 11400000, guid: ab9962854a591e148ad62afb65ea747f, type: 2}
+  initialCoordLists:
+  - {fileID: 11400000, guid: b560b7083928fb44e8f469341cd1596a, type: 2}
+  - {fileID: 11400000, guid: ec0cb2df271d8c8488657bd871e6fc61, type: 2}
+  tileGen: {fileID: 11400000, guid: cc8dfac635dddb34290a43bb5445a9d3, type: 2}

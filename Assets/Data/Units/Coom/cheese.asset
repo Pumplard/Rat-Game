@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2945e29093385ad4199d1791cf9f01f4, type: 3}
+  m_Name: cheese
+  m_EditorClassIdentifier: 
+  aController: {fileID: 9100000, guid: 129dfd58896dada41a2cb1cec02e3327, type: 2}
+  unitName: The Big Cheese
+  maxHp: 40
+  hp: 40
+  atk:
+    baseVal: 30
+    modifiers: 
+  def:
+    baseVal: 15
+    modifiers: 
+  spd:
+    baseVal: 25
+    modifiers: 
+  hit:
+    baseVal: 105
+    modifiers: 
+  avo:
+    baseVal: 20
+    modifiers: 
+  mv:
+    baseVal: 5
+    modifiers: 
+  minRange:
+    baseVal: 1
+    modifiers: 
+  maxRange:
+    baseVal: 1
+    modifiers: 
+  weapon: {fileID: 11400000, guid: 3bf360c1c4e4c1b4bad0271fcc65c41b, type: 2}
+  moraleScript: {fileID: 1595582543788463740, guid: fbdfe2bd7198aa44581cd4e1176f5fe3,
+    type: 3}
+  playerGroup: 0
+  ai: {fileID: 11400000, guid: 2d3205d663bc2db45b08a1d9ba081afc, type: 2}
+  frame: {fileID: 21300000, guid: 36b66f14b384a4e49a99185f394e5a5b, type: 3}
+  portrait: {fileID: 21300000, guid: e5643d629ecf64c4a8df59e521d7c058, type: 3}
+  initSprite: {fileID: 6582011127417039112, guid: 38bd4436f9cc1364bb5e3a911b796ba1,
+    type: 3}
+  mvSprite: {fileID: 21300000, guid: b41941a2e02bbbd468d731312d3360ac, type: 3}
+  cost: 100
+  teamBuff: {fileID: 6511715821266775947, guid: cd956daf15b27a644b82d7f84d1e665f,
+    type: 3}
+  groupIcon: {fileID: 21300000, guid: ae7b2dccaf3ab2447abbb27a1c5913d5, type: 3}

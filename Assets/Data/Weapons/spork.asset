@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d13f6778be6bf545ae77c07fd3378e5, type: 3}
+  m_Name: spork
+  m_EditorClassIdentifier: 
+  weaponName: Spork
+  mt: 5
+  weaponSprite: {fileID: 21300000, guid: 7000ee14fbcada5489b974107c7b3864, type: 3}
+  attackScript: {fileID: 5265260968073893585, guid: 00956bda77f57aa45bec9d359911e330,
+    type: 3}

@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c3830ff2abb1fb4b930bec930e6ab41, type: 3}
+  m_Name: "\u0627\u0644\u062D\u062F\u064A\u062F\u0629"
+  m_EditorClassIdentifier: 
+  aController: {fileID: 22100000, guid: 8b7195b3ccce41541ac02b36191f298a, type: 2}
+  unitName: "\u0627\u0644\u062D\u062F\u064A\u062F\u0629"
+  maxHp: 36
+  hp: 36
+  atk:
+    baseVal: 30
+    modifiers: 
+  def:
+    baseVal: 8
+    modifiers: 
+  spd:
+    baseVal: 24
+    modifiers: 
+  hit:
+    baseVal: 95
+    modifiers: 
+  avo:
+    baseVal: 20
+    modifiers: 
+  mv:
+    baseVal: 7
+    modifiers: 
+  minRange:
+    baseVal: 1
+    modifiers: 
+  maxRange:
+    baseVal: 1
+    modifiers: 
+  weapon: {fileID: 11400000, guid: 3bf360c1c4e4c1b4bad0271fcc65c41b, type: 2}
+  moraleScript: {fileID: 7494086105676004015, guid: 995a497dd8ff1c644b11dc0c7bddc5be,
+    type: 3}
+  playerGroup: 0
+  ai: {fileID: 11400000, guid: 2d3205d663bc2db45b08a1d9ba081afc, type: 2}
+  frame: {fileID: 21300000, guid: 36b66f14b384a4e49a99185f394e5a5b, type: 3}
+  portrait: {fileID: 21300000, guid: cd0f5d589b4134e419622aac3add47ab, type: 3}
+  initSprite: {fileID: 21300000, guid: 6039a2d4de2502e408393a6a2acfc5b3, type: 3}
+  mvSprite: {fileID: 21300000, guid: 6039a2d4de2502e408393a6a2acfc5b3, type: 3}
+  cost: 200

@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8000261110769784571
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8000261110769784569}
+  - component: {fileID: 8000261110769784570}
+  - component: {fileID: 8000261110769784568}
+  m_Layer: 0
+  m_Name: MapManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8000261110769784569
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8000261110769784571}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 8.872896, y: 5.463165, z: -14.183594}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8000261110769784570
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8000261110769784571}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf30751d7f26f4349b80d3c191b30ae7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  initialPlayerUnits:
+  - {fileID: 11400000, guid: e7ed643f31876364496a5ae830906998, type: 2}
+  - {fileID: 11400000, guid: 33119c18e9476874ba41695dafaf708f, type: 2}
+  - {fileID: 11400000, guid: f338027dc1a783f4cbf64de78402c1ea, type: 2}
+  dataPlayerUnits:
+  - {fileID: 11400000, guid: 9b6f409d4dc331c41a3689158db867db, type: 2}
+  - {fileID: 11400000, guid: 8fbab154e67d87d40ba57576b120f7fd, type: 2}
+  mapGenSelect: {fileID: 11400000, guid: 4c0f716d37193ca4dba0f4dc6e4f3d64, type: 2}
+  cursor: {fileID: 0}
+  actionSelect: {fileID: 8000261110769784568}
+  gameEndUI: {fileID: 0}
+  displayTilePrefab: {fileID: 6782193615118144075, guid: ce18dfa5a748cc1459d9900c86412bbb,
+    type: 3}
+  path: {fileID: 3952438068813251551, guid: 2623ac935df81634aaecefce0c534bef, type: 3}
+  valid: {fileID: 21300000, guid: 996d1f1f54707094da1001b759c4859b, type: 3}
+  validAtk: {fileID: 21300000, guid: d7b03e4df416614479e717b1ca4e14cb, type: 3}
+  selDanger: {fileID: 21300000, guid: 0c990da4146e64a4cafc515fc4c8eeb1, type: 3}
+  danger: {fileID: 21300000, guid: 041bc515197f4b444a1613ec785b96f9, type: 3}
+  audioManager: {fileID: 0}
+  mapMenu: {fileID: 0}
+  pathfinding: {fileID: 11400000, guid: 8f8ee7ed5b0937b4ebc64d4bdb2ef77e, type: 2}
+  attackManager: {fileID: 11400000, guid: 53b6ecff6ad111d47869c2994c11ba5c, type: 2}
+  attackDisplayManager: {fileID: 0}
+  animationManager: {fileID: 0}
+  hoverInfoDisplay: {fileID: 0}
+  unitInfoDisplay: {fileID: 0}
+  curState: 0
+  playerTeam: 0
+  curUnitList: {fileID: 0}
+  turnCount: 0
+  mapEvents: []
+--- !u!114 &8000261110769784568
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8000261110769784571}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5cacf3ff1ca179a49a5e5d966e4dc1b2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  display: {fileID: 0}
+  manager: {fileID: 8000261110769784570}
